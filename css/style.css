@@ -64,12 +64,14 @@
         color: #FFFFFF;
     }
     .about {
+        box-sizing: border-box;
         position: absolute;
         width: 375px;
         height: 335px;
         left: 0px;
         top: 275px;
         display: flex;
+        flex-direction: column;
     }
     .about h1 {
         font-family: Libre Franklin;
@@ -79,7 +81,6 @@
         line-height: 29px;
         color: #333333;
         align-self: center;
-        margin-left: 150px;
     }
     .about p {
         font-family: Libre Franklin;
@@ -90,5 +91,6 @@
         text-align: justify;
         color: #333333;
         margin-left: 34px;
+        margin-right: 29px;
     }
 }
