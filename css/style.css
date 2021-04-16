@@ -1,0 +1,94 @@
+@media (max-width: 375px) {
+    header {
+        position: absolute;
+        width: 375px;
+        height: 275px;
+        left: 0px;
+        top: 0px;
+        background: linear-gradient(rgba(198, 108, 73, 0.4), rgba(198, 108, 73, 0.4)), url("/Img/Iphoneimg/bghouses.png");
+    }
+    .hero-section img {
+        position: absolute;
+        width: 24px;
+        left: 34px;
+        top: 39px;
+        font-family: Segoe MDL2 Assets;
+        font-size: 24px;
+        line-height: 24px;
+        color: rgba(255, 255, 255, 1)
+    }
+    .hero-section h1 {
+        position: absolute;
+        left: 129px;
+        top: 36px;
+        font-family: Libre Franklin;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        color: rgba(255, 255, 255, 1);
+    }
+    .texts {
+        position: absolute;
+        width: 217px;
+        height: 110px;
+        left: 78px;
+        top: 115px;
+        text-align: center;
+    }
+    .texts h2 {
+        font-family: Libre Franklin;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+    }
+    .texts h3 {
+        font-family: Libre Franklin;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+    .texts h4 {
+        font-family: Libre Franklin;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 16px;
+        text-decoration-line: underline;
+        color: #FFFFFF;
+    }
+    .about {
+        position: absolute;
+        width: 375px;
+        height: 335px;
+        left: 0px;
+        top: 275px;
+        display: flex;
+    }
+    .about h1 {
+        font-family: Libre Franklin;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        color: #333333;
+        align-self: center;
+        margin-left: 150px;
+    }
+    .about p {
+        font-family: Libre Franklin;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: justify;
+        color: #333333;
+        margin-left: 34px;
+    }
+}
