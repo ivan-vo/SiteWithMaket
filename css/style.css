@@ -1,4 +1,90 @@
+body{
+    font-family: Libre Franklin;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0px;
+    font-style: normal;
+}
+header {
+    box-sizing: border-box;
+    width: 100%;
+    background: linear-gradient(rgba(198, 108, 73, 0.4), rgba(198, 108, 73, 0.4)), url("/Img/PCimg/bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #FFFFFF;
+}
+header h1{
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 93px;
+    margin: 0px;
+    margin-left: 165px;
+    margin-bottom: 0px;
+
+}
+.texts{
+    margin-left: 165px;
+    margin-top: 145px;
+}
+.texts h2{
+    font-weight: normal;
+    font-size: 64px;
+    margin: 0px;
+}
+.texts h3{
+    padding-top: 26px;
+    font-size: 24px;
+    margin: 0px;
+}
+.texts h4{
+    padding-top: 106px;
+    margin: 0px;
+    padding-bottom: 240px;
+    font-size: 18px;
+}
+.menu{
+    height: 22px;
+    display: none;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 93px;
+    margin-right: 166px;
+}
+.menu li{
+    display: inline;
+}
+.menu nav{
+    width: 529px;
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0% 10%;
+}
+.about h1{
+    color:rgba(51, 51, 51, 1);
+    font-size: 24px;
+    font-weight: bold;
+}
+.skills{
+    display: flex;
+}
+.skills h1{
+    width: 100%;
+}
 @media (max-width: 375px) {
+    .menu{
+        display: none;
+    }
     body {
         display: flex;
         flex-direction: column;
