@@ -1,483 +1,395 @@
-body{
-    font-family: Libre Franklin;
+.navigation{
+    display: none;
+}
+a{
+    text-decoration: none;
+}
+#menu-icon{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 34px;
+    top: 39px;
+    font-family: Segoe MDL2 Assets;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.icons{
+    background-color: Transparent;
+    border: none;
+}
+h1{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+p{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: justify;
+}
+body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     margin: 0px;
+    font-family: Libre Franklin;
     font-style: normal;
+    color: #333333;
 }
-header {
-    box-sizing: border-box;
-    width: 100%;
-    background: linear-gradient(rgba(198, 108, 73, 0.4), rgba(198, 108, 73, 0.4)), url("/Img/PCimg/bg.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    color: #FFFFFF;
+.section-content{
+    padding: 0% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-header h1{
-    font-weight: bold;
-    font-size: 24px;
-    padding-top: 93px;
-    margin: 0px;
-    margin-left: 165px;
-    margin-bottom: 0px;
-
+header { 
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .texts{
-    margin-left: 165px;
-    margin-top: 145px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.texts h2{
-    font-weight: normal;
-    font-size: 64px;
-    margin: 0px;
+
+.hero-section{
+    background: linear-gradient(rgba(198, 108, 73, 0.4), rgba(198, 108, 73, 0.4)), url("/Img/Iphoneimg/bghouses.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.texts h3{
-    padding-top: 26px;
+
+.hero-section h1 {
+    font-weight: bold;
     font-size: 24px;
-    margin: 0px;
+    line-height: 29px;
 }
-.texts h4{
-    padding-top: 106px;
-    margin: 0px;
-    padding-bottom: 240px;
-    font-size: 18px;
+.hero-section h2{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
 }
-.menu{
-    height: 22px;
-    display: none;
-    flex-direction: row;
-    justify-content: flex-end;
-    padding-top: 93px;
-    margin-right: 166px;
+.hero-section h3{
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
 }
-.menu li{
-    display: inline;
+.hero-section h4{
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    text-decoration-line: underline;
 }
-.menu nav{
-    width: 529px;
+.skills ul{
+    padding: 0%;
+    width: 100%;
+}
+
+.skills li{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.skills h4{
+    margin: 0%;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 25px;
+}
+.skills span{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 25px;
+    width: 68%;
+}
+.skills div{
     display: flex;
     justify-content: space-between;
 }
-nav a{
-    text-decoration: none;
-    font-size: 18px;
-    color: #FFFFFF;
+.progress-bar{
+    width: 68%;
+    height: 18px; 
+    background: #F5D6AB;  
 }
-.about{
+
+.progress-bar div{
+    height: 18px; 
+    background: #C66C49;
+}
+#profile-skills{
+    margin-bottom: 11px;
+}
+.portfolio{
     display: flex;
     flex-direction: column;
-    margin: 0px;
-    padding: 0% 10%;
+    align-items: center;
 }
-.about h1{
-    color:rgba(51, 51, 51, 1);
-    font-size: 24px;
-    font-weight: bold;
+
+.portfolio h3{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    color: #333333;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
-.skills{
+
+.portfolio p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.items{
+    width: 308px;
     display: flex;
+    justify-content: space-between;
 }
-.skills h1{
+.first-column{
+    width: 58%;
+}
+.second-column{
+    width: 40%;
+}
+.items section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 195px;
+    margin-bottom: 24.53px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    padding-left: 10%;
+}
+
+.links{
     width: 100%;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
 }
-@media (max-width: 375px) {
-    .menu{
+.links nav{
+    min-width: 154px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact a{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+    margin-bottom: 19px;
+}
+.email-phone a{
+    margin: 0px;
+}
+.phone{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 50px;
+}
+footer{
+    position: relative;
+    margin-bottom: 50px;
+}
+#upper-icon{
+    font-size: 24px;
+    font-stretch: 24px;
+    height: 24px;
+    position: absolute;
+    font-family: Segoe MDL2 Assets;
+    font-size: 24px;
+    line-height: 24px;
+    color: #333333;
+    right: 32px;
+    bottom: 0px;
+}
+@media (min-width: 850px) {
+    .icons{
         display: none;
     }
-    body {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        margin: 0px;
+    .section-content{
+        padding-top: 93px;
+        padding-left: 165px;
     }
-    header {
-        box-sizing: border-box;
-        width: 375px;
-        height: 275px;
-        left: 0px;
-        top: 0px;
-        background: linear-gradient(rgba(198, 108, 73, 0.4), rgba(198, 108, 73, 0.4)), url("/Img/Iphoneimg/bghouses.png");
+    p{
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: justify;
     }
-    .hero-section img {
-        position: absolute;
-        width: 24px;
-        left: 34px;
-        top: 45px;
-        font-family: Segoe MDL2 Assets;
-        font-size: 24px;
-        line-height: 24px;
-        color: rgba(255, 255, 255, 1)
+    .hero-section{
+        background: linear-gradient(rgba(198, 108, 73, 0.3), rgba(198, 108, 73, 0.3)), url("/Img/PCimg/bg.png");
+        background-size: cover;
+        background-repeat: no-repeat;        
     }
-    .hero-section h1 {
-        position: absolute;
-        left: 129px;
-        top: 16px;
-        font-family: Libre Franklin;
-        font-style: normal;
-        font-weight: bold;
+    .texts{
+        margin-top: 145px;
+        align-self: flex-start;
+        align-items: flex-start;
+    }
+    .texts h2{
+        font-weight: normal;
+        font-size: 64px;
+        line-height: 78px;
+        margin: 0%;
+    }
+    .texts h3{
+        margin-top: 26px;
+        font-weight: normal;
         font-size: 24px;
         line-height: 29px;
-        color: rgba(255, 255, 255, 1);
     }
-    .texts {
-        position: absolute;
-        width: 217px;
-        height: 110px;
-        left: 78px;
-        top: 99px;
-        text-align: center;
-    }
-    .texts h2 {
-        font-family: Libre Franklin;
-        font-style: normal;
+    .texts h4{
         font-weight: normal;
-        font-size: 20px;
-        line-height: 24px;
-        display: flex;
-        align-items: center;
-        color: #FFFFFF;
-    }
-    .texts h3 {
-        font-family: Libre Franklin;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 13px;
-        line-height: 16px;
-        color: #FFFFFF;
-        top: 100px;
-    }
-    .texts h4 {
-        font-family: Libre Franklin;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 13px;
-        line-height: 16px;
+        font-size: 18px;
+        line-height: 22px;
         text-decoration-line: underline;
+        margin-bottom: 300px;
+    }
+    header{
+        width: 100%;
+    }
+    .navigation{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-content: center;        
+    }
+    .navigation h1{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        margin: 0%;
+    }
+    .menu{
+        display: flex;
+        flex-direction: row;
+        width: 529px;
+        height: 22px;
+        justify-content: space-between;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .menu a{
         color: #FFFFFF;
     }
-    .about {
-        box-sizing: border-box;
-        left: 0px;
-        top: 275px;
-        display: flex;
-        flex-direction: column;
+    .menu li{
+        list-style-type: none;
     }
-    .about h1 {
-        font-family: Libre Franklin;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 29px;
-        color: #333333;
-        align-self: center;
-        margin-top: 25px;
-        margin-bottom: 19px;
+    #portfolio-h1{
+        display: none;
     }
-    .about p {
-        font-family: Libre Franklin;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 12px;
-        line-height: 15px;
-        text-align: justify;
-        color: #333333;
-        margin-left: 34px;
-        margin-right: 29px;
-        margin-bottom: 0px;
-        margin-top: 0px;
-    }
-    .skills {
-        display: flex;
-        flex-direction: column;
-        margin: 0px;
-        font-family: Libre Franklin;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 12px;
-        line-height: 25px;
-    }
-    .skills img {
-        width: 224px;
-        margin-left: 71px;
-    }
-    .skills h1 {
-        margin-bottom: 25px;
-        margin-top: 33px;
-        align-self: center;
-    }
-    .title {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        margin-bottom: 26px;
-        margin-left: 34px;
-    }
-    .title p {
-        margin-left: 59px;
-    }
-    .two-row-profile {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        margin-left: 34px;
+    .about{
+        align-items: flex-start;
+        padding-top: 93px;
     }
     .skills{
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .skills-info{
-        display: flex;
-        flex-direction: column;
-        display: flex;
-        flex-direction: column;
-        text-align: left;
-    }
-    .first-row{
-        display: flex;
-        justify-content: space-around;
-    }
-    .about {
-        box-sizing: border-box;
-        width: 375px;
-        left: 0px;
-        top: 275px;
-        display: flex;
-        flex-direction: column;
-    }
-    .about h1 {
-        font-family: Libre Franklin;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 29px;
-        color: #333333;
-        align-self: center;
-    }
-    .about p {
-        font-family: Libre Franklin;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 12px;
-        line-height: 15px;
-        text-align: justify;
-        color: #333333;
-        margin-left: 34px;
-        margin-right: 29px;
-    }
-    .text-tools{
-        margin-top: 12px;
-        margin-bottom: 22px;
-    }
-    .skills{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-top: 93px;
     }
     .skills img{
-        margin-left: 0px;
+        height: 340px;
     }
-    .skills-info{
-        display: flex;
-        flex-direction: row;
-        text-align: left;
-    }
-    .second-column-skills{
-        margin-left: 16px;
-    }
-    .firs-column-skills h5{
-        font-family: Libre Franklin;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 12px;
-        color: #333333;
-    }
-    .firs-column-skills h4{
-        font-family: Libre Franklin;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 12px;
-        color: #333333;
-    }
-    .first-tool-text{
-        margin-top: 31px;
-        margin-bottom: 0px;
-    }
-    .tools{
-        margin-top: 8px;
-        margin-bottom: 16px;
-    }
-    .not-tools{
+    .skills h1{
+        width: 100%;
         margin: 0px;
-    }
-    .first-row-skills-text{
-        margin-top: 26px;
-    }
-    .second-row-skills-text{
-        margin-top: 35px;
-    }
-    .left-skills-column{
-        margin-left: 0px;
-    }
-    /* .first-row{
+    } 
+    .skills ul{
+        width: 65%;
+        margin: 0%;
+        height: 340px;
         display: flex;
-        justify-content: space-around;
+        flex-direction: column;
+        align-content: space-between;
     }
-    .first-row section{
-        text-align: left;
-    } */
-    .two-column h6{
-        font-family: Libre Franklin;
-        font-style: normal;
+    .skills span{
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .skills h4{
         font-weight: 600;
-        font-size: 12px;
-        margin: 0px;
+        font-size: 18px;
+        line-height: 25px;
     }
-    .two-column section{
-        display: flex;
-        justify-content: space-around;
+    .progress-bar{
+        height: 24px; 
     }
-    .big-row{
-        width: 211px;
-        height: 18px;
-        background: #F5D6AB;
+    
+    .progress-bar div{
+        height: 24px; 
     }
-    .small-row-1{
-        width: 135.3px;
-        height: 18px;
-        background: #C66C49;
-    }
-    .small-row-2{
-        width: 165.27px;
-        height: 18px;
-        background: #C66C49;
-    }
-    .small-row-3{
-        width: 179.39px;
-        height: 18px;
-        background: #C66C49;
+    #profile-skill-li{
+        margin-top: 0px;
     }
     .portfolio{
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between; 
+        padding-top: 93px;
+        padding-bottom: 145;
     }
     .portfolio h1{
-        font-family: Libre Franklin;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 29px;
-        color: #333333;
-        margin-top: 25px;
-        margin-bottom: 0px;
+        margin-bottom: 86px;
+        width: 100%;
     }
     .portfolio h3{
-        font-family: Libre Franklin;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
+        margin-bottom: 41px;
+        width: 100%;
+        font-weight: 600;
+        font-size: 18px;
         line-height: 25px;
-        color: #333333;
-        margin-top: 19px;
-        margin-bottom: 0px;
     }
     .portfolio p{
-        font-family: Libre Franklin;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 12px;
-        line-height: 15px;
-        text-align: center;
-        margin-top: 15px;
-        margin-left: 34px;
-        margin-right: 33px;
+        width: 350px;
+        align-self: flex-start;
+        text-align: justify;
+        margin-top: 0px;
     }
     .items{
-        width: 308px;
-        display: flex;
-        justify-content: space-between;
+        /* width: 308px; */
+        width: 635px;
     }
     .items section{
         display: flex;
+        height: 403px;
         flex-direction: column;
-        justify-content: space-between;
-        height: 195px;
+
         margin-bottom: 24.53px;
     }
     .contact{
-        display: flex;
-        flex-direction: column;
-    }
-    .contact h1{
-        align-self: center;
-        font-family: Libre Franklin;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-    }
-    a{
-        text-decoration: none;
-    }
-    .contact nav a{
-        font-family: Libre Franklin;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        color: rgba(51, 51, 51, 1);
-        padding-bottom: 19px;
+        align-items: flex-start;
+        padding-bottom: 189px;
     }
     .links{
-        display: flex;
-        
-    }
-    .links nav{
-        display: flex;
-        flex-direction: column;
-        padding: 0px;
-        position: relative;
-        font-family: Libre Franklin;
-        font-style: normal;
+        max-width: 1000px;
+        justify-content: space-between;
         font-weight: normal;
-        font-size: 14px;
-    }
-    .left-links{ 
-        width: 61px;
-        height: 161px;
-        margin-left: 42px;
-    }
-    .rigth-links{
-        margin-left: 99px;
+        font-size: 18px;
+        line-height: 22px;
+    }    
+    .links a{
+        margin: 7px 0px;
     }
     .email-phone{
-        margin-left: 42px;
-        margin-top: 30px;
-        display: flex;
-        flex-direction: column;
+        width: auto;
+        margin: 0px;
     }
-    .email-phone a{
-        font-family: Libre Franklin;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 17px;
-        color: #333333;
+    footer{
+        margin: 0px;
     }
-    .phone{
-        font-family: Libre Franklin;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 12px;
-        line-height: 15px;
-        color: #333333;
-    }
-    .contact img{
-        position: relative;
-        width: 24px;
-        left: 319px;
-        bottom: 58px;
-    }
-    
 }
